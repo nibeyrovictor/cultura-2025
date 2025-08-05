@@ -58,6 +58,7 @@ if (!tienePermiso($archivo_actual, $pdo)) {
             <a href="crear_tabla_certificados.php" class="btn btn-outline-dark mt-3">cREACIÓN DE TABLA DE CERTIFICADOS 349</a>
             <a href="gestionar_certificados.php" class="btn btn-outline-dark mt-3">TABLA DE CERTIFICADOS 349</a>
             <a href="ocr_tesseract_windows.php" class="btn btn-outline-dark mt-3">Reconocimiento de texto</a>
+            <a href="reconocimiento/formulario.php" class="btn btn-primary">  Ir a Reconocimiento Facial</a>
 
         <?php else: ?>
             <div class="alert alert-info">
